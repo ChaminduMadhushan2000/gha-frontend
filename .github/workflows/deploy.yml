@@ -28,7 +28,6 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
-        cache: "npm"
 
       - name: Build Deps
         run: npm ci
